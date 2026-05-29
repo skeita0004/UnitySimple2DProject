@@ -18,8 +18,9 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private float horizontalInput;
-    private bool isGrounded;
     private bool isFacingRight = true;
+
+    static bool playerIsGrounded = false;
 
     // ボタンが押されているかを判定するフラグ
     private bool isJumpPressed;
@@ -41,10 +42,10 @@ public class PlayerController : MonoBehaviour
         }
 
         // 2. 接地判定
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
+        playerIsGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
 
         // 3. ジャンプ入力（Spaceキーが押された瞬間 ＆ 地面にいるとき）
-        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame && isGrounded)
+        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame && playerIsGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
