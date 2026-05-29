@@ -1,16 +1,18 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class ClearChecker : MonoBehaviour
+public class GoalPole : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    // 何かがこのセンサー（ポール）に触れた瞬間に実行される固有の関数
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
+        // 触れてきた相手のタグが "Player" だったら
+        if (collision.CompareTag("Player"))
+        {
+            Debug.Log("ゴールに到達！リザルトシーンへ遷移します。");
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+            // ステップ1で作ったシーン名「ResultScene」に切り替える
+            SceneManager.LoadScene("ResultScene");
+        }
     }
 }
