@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
     public void OnJump(InputValue value)
     {
         // ボタンが押された瞬間
-        if (value.isPressed && isGrounded)
+        if (value.isPressed && playerIsGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // 接地判定
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
+        playerIsGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
 
         // 向き反転
         if (horizontalInput > 0 && !isFacingRight) Flip();
