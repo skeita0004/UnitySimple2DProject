@@ -23,6 +23,7 @@ public class DestroyEnemy : MonoBehaviour
                 //if (PlayerController.playerIsGrounded == false)
                 {
                     this.GetComponent<Rigidbody2D>().linearVelocityX += 2f;
+                    ScoreManager.score += 100;
                     Destroy(collision.gameObject);
                 }
             }
