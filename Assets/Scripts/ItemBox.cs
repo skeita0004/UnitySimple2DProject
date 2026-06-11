@@ -12,11 +12,17 @@ public class ItemBox : MonoBehaviour
     private bool isUsed_ = false;
     private Rigidbody2D rb = null;
 
-
+    private BoxCollider2D[] colliders_;
+    private BoxCollider2D playerCollider;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        playerCollider = player.GetComponent<BoxCollider2D>();
+
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+
+        colliders_ = GetComponentsInChildren<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -46,17 +52,11 @@ public class ItemBox : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D _collision)
     {
-        if ( _collision.gameObject.CompareTag("Player") )
+        Debug.Log("あたった");
+        if ( colliders_[1].IsTouching(playerCollider) && _collision.gameObject.CompareTag("Player") )
         {
-            foreach ( ContactPoint2D contact in _collision.contacts )
-            {
-                Rigidbody2D rb = _collision.gameObject.GetComponent<Rigidbody2D>();
-                if ( rb != null && rb.linearVelocity.y > 0f)
-                {
-                    isUsed_ = true;
-                    spriteRenderer.sprite = used;
-                }
-            }
+                isUsed_ = true;
+                spriteRenderer.sprite = used;
         }
     }
 }

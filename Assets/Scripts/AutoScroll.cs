@@ -14,7 +14,10 @@ public class AutoScroll : MonoBehaviour
         Vector2 playerPos = player.transform.position;
 
         // playerが、groundより上にいる時、かつ、playerが最初の画面の右端に到達したら、スクロールスタート
-        scrollEnabled_ = (playerPos.y >= -3.5f) && (playerPos.x >= 5.5f);
+        if (scrollEnabled_ == false )
+        {
+            scrollEnabled_ = (playerPos.y >= -3.5f) && (playerPos.x >= 5.5f);
+        }
 
         if (scrollEnabled_)
         {

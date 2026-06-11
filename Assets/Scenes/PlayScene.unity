@@ -989,8 +989,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1930880686}
   - component: {fileID: 1930880685}
+  - component: {fileID: 1930880689}
   - component: {fileID: 1930880684}
-  - component: {fileID: 1930880683}
   - component: {fileID: 1930880682}
   - component: {fileID: 1930880687}
   - component: {fileID: 1930880688}
@@ -1022,43 +1022,6 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
---- !u!70 &1930880683
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930880681}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
-  m_Direction: 0
 --- !u!50 &1930880684
 Rigidbody2D:
   serializedVersion: 5
@@ -1203,6 +1166,52 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!61 &1930880689
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930880681}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 2}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 2}
+  m_EdgeRadius: 0
 --- !u!1001 &192430805464770419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1811,6 +1820,10 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8619496685976399906, guid: 6dabcf30267cb8a429d2850e249541f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8659202065366406453, guid: 6dabcf30267cb8a429d2850e249541f2, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -1867,6 +1880,13 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 1477703317727545871, guid: 6dabcf30267cb8a429d2850e249541f2, type: 3}
     - {fileID: 5665419306638303426, guid: 6dabcf30267cb8a429d2850e249541f2, type: 3}
+    - {fileID: 4521717939678363420, guid: 6dabcf30267cb8a429d2850e249541f2, type: 3}
+    - {fileID: 4686366877462516078, guid: 6dabcf30267cb8a429d2850e249541f2, type: 3}
+    - {fileID: 4056524907296248219, guid: 6dabcf30267cb8a429d2850e249541f2, type: 3}
+    - {fileID: 8966689187913713453, guid: 6dabcf30267cb8a429d2850e249541f2, type: 3}
+    - {fileID: 1410254922683066751, guid: 6dabcf30267cb8a429d2850e249541f2, type: 3}
+    - {fileID: 1365204966762042799, guid: 6dabcf30267cb8a429d2850e249541f2, type: 3}
+    - {fileID: 2972030170708661420, guid: 6dabcf30267cb8a429d2850e249541f2, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8467625704236009620, guid: 6dabcf30267cb8a429d2850e249541f2, type: 3}
