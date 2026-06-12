@@ -76,7 +76,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.05, y: 0.2}
+  m_Size: {x: 0.4, y: 0.2}
   m_EdgeRadius: 0
 --- !u!1 &6093616268710341248
 GameObject:
@@ -184,6 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06e4e786add426743bcef1915e2b55c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemBox
+  boxItem: {fileID: 7787239638369184108, guid: a3625a1ffb6ebf7479a1524e9624e940, type: 3}
   used: {fileID: 5403489869266943525, guid: c083db58d8f79e8498ff70af806cd471, type: 3}
 --- !u!61 &4671883219925051863
 BoxCollider2D:

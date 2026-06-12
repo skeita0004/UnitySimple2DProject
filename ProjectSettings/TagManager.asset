@@ -7,6 +7,7 @@ TagManager:
   - Goal
   - Block
   - Enemy
+  - Item
   layers:
   - Default
   - TransparentFX

@@ -24,7 +24,7 @@ public class AutoScroll : MonoBehaviour
             // 毎フレーム、右方向（X軸プラス方向）へ一定速度で移動させる
             transform.Translate(Vector3.right * scrollSpeed * Time.deltaTime);
 
-            if (playerPos.y < -3.5f)
+            if (GameOverCheck.isGameOver)
             {
                 scrollEnabled_ = false;
             }
