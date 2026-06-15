@@ -4,19 +4,30 @@ using UnityEngine.UI;
 
 public class ItemBox : MonoBehaviour
 {
+    public GameObject boxItem;
+
     SpriteRenderer spriteRenderer;
     public Sprite used;
 
-    private const float GRAVITY_ = -9.8f;
-    private float bouncePower_ = 12f;
+    private Vector2 itemMovePoint;
+
     private bool isUsed_ = false;
-    private Rigidbody2D rb = null;
 
+    private BoxCollider2D[] colliders_;
+    private CapsuleCollider2D playerCollider_;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        playerCollider_ = player.GetComponent<CapsuleCollider2D>();
+
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+
+        colliders_ = GetComponentsInChildren<BoxCollider2D>();
+
+
+
+        itemMovePoint = (Vector2)transform.position + new Vector2(0.0f, 1.0f);
     }
 
     // Update is called once per frame
@@ -24,19 +35,12 @@ public class ItemBox : MonoBehaviour
     {
         if ( isUsed_ )
         {
-            ////Vector2 pos = transform.position;
-            ////rb = GetComponent<Rigidbody2D>();
-            ////Vector2 vel = rb.linearVelocity;
-
-            //vel.y = (bouncePower_ - GRAVITY_) / Time.deltaTime;
-            //rb.linearVelocity = vel;
+            // アイテムがにゅる～って出てくる
+            if (boxItem != null )
+            { 
+                boxItem.transform.position = Vector2.Lerp(boxItem.transform.position, itemMovePoint, 0.05f);
+            }
         }
-
-        // 下からぶつかったら、上に少し跳ねる
-        
-        // と同時に、アイテムが上方向にひねり出される
-
-        // 跳ね終わったら、空のブロックに代わる。
     }
 
     private void HitBlock(GameObject _player)
@@ -46,16 +50,17 @@ public class ItemBox : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D _collision)
     {
-        if ( _collision.gameObject.CompareTag("Player") )
+        if (isUsed_ == false)
         {
-            foreach ( ContactPoint2D contact in _collision.contacts )
+            if ( colliders_[1].IsTouching(playerCollider_) && _collision.gameObject.CompareTag("Player") )
             {
-                Rigidbody2D rb = _collision.gameObject.GetComponent<Rigidbody2D>();
-                if ( rb != null && rb.linearVelocity.y > 0f)
-                {
-                    isUsed_ = true;
-                    spriteRenderer.sprite = used;
-                }
+                isUsed_ = true;
+                spriteRenderer.sprite = used;
+
+                boxItem = Instantiate(boxItem);
+                boxItem.transform.position = transform.position;
+                //boxItem.transform.SetParent(gameObject.transform);
+                //boxItem.gameObject.SetActive(false);
             }
         }
     }

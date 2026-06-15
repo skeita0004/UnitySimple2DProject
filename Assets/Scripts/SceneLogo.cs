@@ -15,13 +15,13 @@ public class SceneLogo : MonoBehaviour
 
     void Update()
     {
-        if (true) // Result.isClear
+        if (GameOverCheck.isGameOver) // Result.isClear
         {
-            sceneLogo.sprite = clearLogo;
+            sceneLogo.sprite = overLogo;
         }
         else
         {
-            sceneLogo.sprite = overLogo;
+            sceneLogo.sprite = clearLogo;
         }
     }
 }
