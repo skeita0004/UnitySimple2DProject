@@ -9,36 +9,50 @@ public class EnemyMove : MonoBehaviour
     public LayerMask groundLayer;
     public float checkDist;
 
+    private bool isMove_ = false;
+    private GameObject player_ = null;
+
     void Start()
     {
-        
+        groundCheck = transform.GetChild(0).transform;
+
+        player_ = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Update()
     {
-        Vector3 pos = this.transform.position;
-        pos.x += (speed * Time.deltaTime) * dir_;
-        this.transform.position = pos;
+        float toPlayerDist = Vector2.Distance(transform.position, player_.transform.position);
+        
+        if (toPlayerDist < 10f)
+        {
+            isMove_ = true;
+        }
 
-        //bool isGroundAhead = Physics2D.Raycast(groundCheck.position, Vector2.down, checkDist, groundLayer);
+        if (isMove_)
+        {
+            Vector3 pos = this.transform.position;
+            pos.x += (speed * Time.deltaTime) * dir_;
+            this.transform.position = pos;
 
-        //if (isGroundAhead == false)
-        //{
-        //    dir_ *= -1;
-        //    Vector3 scale = this.transform.localScale;
-        //    scale.x *= -1;
-        //    transform.localScale = scale;
-        //}
+            if (toPlayerDist > 15f)
+            {
+                isMove_ = false;
+            }
+        }
+
+        bool isGroundAhead = Physics2D.Raycast(groundCheck.position, Vector2.down, checkDist, groundLayer);
+
+        if ( isGroundAhead == false )
+        {
+            Turn();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Block"))
         {
-            dir_ *= -1;
-            Vector3 scale = this.transform.localScale;
-            scale.x *= -1;
-            transform.localScale = scale;
+            Turn();
         }
 
         if (collision.gameObject.CompareTag("Player"))
@@ -48,8 +62,20 @@ public class EnemyMove : MonoBehaviour
                 GameOverCheck.isGameOver = true;
             }
         }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Turn();
+        }
     }
 
+    private void Turn()
+    {
+        dir_ *= -1;
+        Vector3 scale = this.transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+    }
 
     //private void OnDrawGizmos()
     //{
