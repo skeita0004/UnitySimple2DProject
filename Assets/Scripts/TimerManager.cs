@@ -5,7 +5,13 @@ using UnityEngine.SceneManagement;
 public class TimerManager : MonoBehaviour
 {
     public TMP_Text timerText;
-    public float timeLimit = 60f;
+    public float time;
+    static public float timeLimit = 60f;
+
+    void Start()
+    {
+        timeLimit = time;
+    }
 
     void Update()
     {
@@ -22,5 +28,6 @@ public class TimerManager : MonoBehaviour
         {
             SceneManager.LoadScene("ResultScene");
         }
+
     }
 }
