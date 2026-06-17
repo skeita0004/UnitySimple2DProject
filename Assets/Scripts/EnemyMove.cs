@@ -8,15 +8,20 @@ public class EnemyMove : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
     public float checkDist;
+    public AudioClip hitSE;
+   
 
     private bool isMove_ = false;
     private GameObject player_ = null;
+    private AudioSource audioSource;
+    private bool playedHit = false;
 
     void Start()
     {
         groundCheck = transform.GetChild(0).transform;
 
         player_ = GameObject.FindGameObjectWithTag("Player");
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -60,6 +65,10 @@ public class EnemyMove : MonoBehaviour
             if (collision.transform.position.y < transform.position.y)
             {
                 GameOverCheck.isGameOver = true;
+            }
+            if (hitSE != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(hitSE);
             }
         }
 

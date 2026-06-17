@@ -9,12 +9,16 @@ public class ItemBox : MonoBehaviour
     SpriteRenderer spriteRenderer;
     public Sprite used;
 
+    
+
     private Vector2 itemMovePoint;
 
     private bool isUsed_ = false;
 
     private BoxCollider2D[] colliders_;
     private CapsuleCollider2D playerCollider_;
+
+    private AudioSource audioSource;
 
     void Start()
     {
@@ -25,6 +29,7 @@ public class ItemBox : MonoBehaviour
 
         colliders_ = GetComponentsInChildren<BoxCollider2D>();
 
+    
 
 
         itemMovePoint = (Vector2)transform.position + new Vector2(0.0f, 1.0f);
@@ -39,6 +44,8 @@ public class ItemBox : MonoBehaviour
             if (boxItem != null )
             { 
                 boxItem.transform.position = Vector2.Lerp(boxItem.transform.position, itemMovePoint, 0.05f);
+               
+               
             }
         }
     }
