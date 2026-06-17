@@ -2,14 +2,12 @@ using UnityEngine;
 
 public static class GameManager
 {
-    public static bool isClear = false;
-    public static bool isGameOver = false;
+    public static bool isClear = true;
+    public static bool isGameOver = true;
 }
 
 public class ResultScene : MonoBehaviour
 {
-    
-
     public AudioClip clearSE;
     public AudioClip gameOverSE;
 
@@ -22,9 +20,9 @@ public class ResultScene : MonoBehaviour
 
         if (GameManager.isClear)
         {
-           Play(clearSE);
+            Play(clearSE);
         }
-        else
+        else if (GameManager.isGameOver)
         {
             Play(gameOverSE);
         }
