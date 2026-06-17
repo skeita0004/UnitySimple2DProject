@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ebe85c24a57e3c44aaee7f37d5187fdf
+guid: 45ab9f9c730f7bc43a28abe3c5af662d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - sceneCamera: {instanceID: 0}
+  - clearSE: {fileID: 8300000, guid: d525f09f2f3c89b49823e3df090c6cc3, type: 3}
   - gameOverSE: {fileID: 8300000, guid: 85b25afab52557646994ce933674942e, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}

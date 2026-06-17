@@ -3,6 +3,15 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("SE")]
+    public AudioClip jumpSE;
+    public AudioClip landSE;
+
+    private AudioSource audioSource;
+
+    // 前フレームの接地状態
+    private bool wasGrounded;
+
     [Header("移動設定")]
     public float moveSpeed = 8f;
     public float jumpForce = 12f;
@@ -28,6 +37,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // ★Player Inputコンポーネントから自動で呼び出される移動処理
@@ -45,6 +55,9 @@ public class PlayerController : MonoBehaviour
         if (value.isPressed && playerIsGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            
+            // ジャンプSE
+            audioSource.PlayOneShot(jumpSE);
         }
 
         // ボタンが今押されているか（可変ジャンプの判定用）
@@ -53,8 +66,17 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        // 前フレームの状態を保存
+        wasGrounded = playerIsGrounded;
+
         // 接地判定
         playerIsGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
+
+        // 着地した瞬間
+        if (!wasGrounded && playerIsGrounded)
+        {
+            audioSource.PlayOneShot(landSE);
+        }
 
         // 向き反転
         if (horizontalInput > 0 && !isFacingRight) Flip();
