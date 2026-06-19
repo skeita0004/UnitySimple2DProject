@@ -816,7 +816,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.79, y: 0, z: -10}
+  m_LocalPosition: {x: -0.86, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2257,7 +2257,7 @@ GameObject:
   - component: {fileID: 1930880691}
   - component: {fileID: 1930880690}
   - component: {fileID: 1930880692}
-  - component: {fileID: 1930880692}
+  - component: {fileID: 1930880693}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Player
@@ -2495,6 +2495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameOverCheck
   sceneCamera: {fileID: 519420031}
+  gameOverSE: {fileID: 0}
 --- !u!114 &1930880692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2539,8 +2540,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-  gameOverSE: {fileID: 0}
---- !u!82 &1930880692
+--- !u!82 &1930880693
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
