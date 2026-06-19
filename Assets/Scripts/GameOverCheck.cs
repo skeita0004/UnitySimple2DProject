@@ -17,7 +17,7 @@ public class GameOverCheck : MonoBehaviour
 
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        
     }
 
     void Update()
@@ -27,17 +27,22 @@ public class GameOverCheck : MonoBehaviour
             // 地面より下にいたら
             if (transform.position.y < -7)
             {
+                GameManager.isClear = false;
+                GameManager.isGameOver = true;
+
                 isGameOver = true;
-                audioSource.PlayOneShot(gameOverSE);
-                playedGameOverSE = true;
+                
             }
 
             // カメラから、負の方向に8くらい離れていたら
             if (transform.position.x - sceneCamera.transform.position.x < -12f)
             {
+                GameManager.isClear = false;
+                GameManager.isGameOver = true;
+
                 isGameOver = true;
-                audioSource.PlayOneShot(gameOverSE);
-                playedGameOverSE = true;
+                
+               
             }
         }
     }

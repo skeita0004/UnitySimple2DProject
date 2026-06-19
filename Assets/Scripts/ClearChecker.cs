@@ -11,6 +11,9 @@ public class GoalPole : MonoBehaviour
         {
             Debug.Log("ゴールに到達！リザルトシーンへ遷移します。");
 
+            GameManager.isClear = true;
+            GameManager.isGameOver = false;
+
             // ステップ1で作ったシーン名「ResultScene」に切り替える
             SceneManager.LoadScene("ResultScene");
         }
