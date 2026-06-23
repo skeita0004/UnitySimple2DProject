@@ -3,6 +3,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public Camera mainCamera;
+
     [Header("SE")]
     public AudioClip jumpSE;
     public AudioClip landSE;
@@ -38,6 +40,24 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        Vector3 initPos = Vector3.zero;
+        Vector3 initPosCam = Vector3.zero;
+
+        // これは、とんでもない最低のコードですわよ！流石平民というべきかしら？
+        if ( GoalPole.clearNum == 0)
+        {
+            initPos = new Vector3(-5.8f, -2.6f, 0f);
+            initPosCam = new Vector3(-0.81f, 0f, -10f);
+        }
+        else if (GoalPole.clearNum == 1 ) 
+        {
+            initPos = new Vector3(308f, -1.0f, 0f);
+            initPosCam = new Vector3(313.2f, 0f, -10f);
+        }
+
+        transform.position = initPos;
+        mainCamera.transform.position = initPosCam; 
+
         rb = GetComponent<Rigidbody2D>();
 
         jumpAction = GetComponent<PlayerInput>().actions["Jump"];
@@ -59,7 +79,7 @@ public class PlayerController : MonoBehaviour
         Debug.Log("Jump input: " + pressed);
 
         // ボタンが押された瞬間
-        if (isJumpPressed && playerIsGrounded)
+        if (pressed && playerIsGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             

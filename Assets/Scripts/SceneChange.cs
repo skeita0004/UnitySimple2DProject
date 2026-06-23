@@ -39,7 +39,10 @@ public class SceneChange : MonoBehaviour
         }
         else
         {
-            if (SceneManager.GetActiveScene().name == "TitleScene")
+            string currScene = SceneManager.GetActiveScene().name;
+            if (currScene == "TitleScene" || 
+                currScene == "StageTransition" || 
+                currScene == "ResultScene")
             {
                 if ( Keyboard.current.anyKey.isPressed ||
                     Gamepad.current != null && Gamepad.current.allControls.Any(controller => controller is ButtonControl button && button.IsPressed()))
@@ -53,10 +56,7 @@ public class SceneChange : MonoBehaviour
                 {
                     isSceneChage = true;
                 }
-                // ステージが2の時はResultへ、
-                // ステージが1の時はステージ遷移シーンへ。
             }
         }
     }
-
 }

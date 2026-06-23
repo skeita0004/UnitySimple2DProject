@@ -17,7 +17,7 @@ public class GameOverCheck : MonoBehaviour
 
     void Start()
     {
-        
+        isGameOver = false;
     }
 
     void Update()
@@ -43,6 +43,11 @@ public class GameOverCheck : MonoBehaviour
                 isGameOver = true;
                 
                
+            }
+
+            if (isGameOver)
+            {
+                ScoreManager.score = 0;
             }
         }
     }

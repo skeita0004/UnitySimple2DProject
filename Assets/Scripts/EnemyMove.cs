@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyMove : MonoBehaviour
 {
@@ -65,6 +66,7 @@ public class EnemyMove : MonoBehaviour
             if (collision.transform.position.y < transform.position.y)
             {
                 GameOverCheck.isGameOver = true;
+                SceneManager.LoadScene("ResultScene");
             }
             if (hitSE != null && audioSource != null)
             {

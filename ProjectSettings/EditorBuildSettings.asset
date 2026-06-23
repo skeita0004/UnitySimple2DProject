@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ResultScene.unity
     guid: 29ad528edcf79c547a37ce4e61151075
+  - enabled: 1
+    path: Assets/Scenes/StageTransition.unity
+    guid: 1d4862e93ebd04f4882cf477417fd56f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: 9e1956cd303451e48ac14fc13e7fceac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -543674814511395573
+    second: StageTransitionLogo_0
+  - first:
+      213: -2791289738062283692
+    second: StageTransitionLogo_1
+  - first:
+      213: -8562998550275802882
+    second: StageTransitionLogo_2
+  - first:
+      213: -7910170014632742193
+    second: StageTransitionLogo_3
+  - first:
+      213: 244208090450740589
+    second: StageTransitionLogo_4
+  - first:
+      213: 4552345039443971840
+    second: StageTransitionLogo_5
+  - first:
+      213: 3226079397600040502
+    second: StageTransitionLogo_6
+  - first:
+      213: 117118012535315836
+    second: StageTransitionLogo_7
+  - first:
+      213: 2191453987044644028
+    second: StageTransitionLogo_8
+  - first:
+      213: -6403639325315090599
+    second: StageTransitionLogo_9
+  - first:
+      213: 3410902898163378687
+    second: StageTransitionLogo_10
+  - first:
+      213: 5391175662696870593
+    second: StageTransitionLogo_11
+  - first:
+      213: 8263692966949469110
+    second: StageTransitionLogo_12
+  - first:
+      213: -2031592813234842451
+    second: StageTransitionLogo_13
+  - first:
+      213: -3647812598424404952
+    second: StageTransitionLogo_14
+  - first:
+      213: -749830284140552281
+    second: StageTransitionLogo_15
+  - first:
+      213: -6818166546998501354
+    second: StageTransitionLogo_16
+  - first:
+      213: 2551625332456190917
+    second: StageTransitionLogo_17
+  - first:
+      213: 142787173904377402
+    second: StageTransitionLogo_18
+  - first:
+      213: -4163856789374790987
+    second: StageTransitionLogo_19
+  - first:
+      213: 5303774664919246709
+    second: StageTransitionLogo_20
+  - first:
+      213: -5277727585588564436
+    second: StageTransitionLogo_21
+  - first:
+      213: -4875319015333402101
+    second: StageTransitionLogo_22
+  - first:
+      213: -5188156978482322682
+    second: StageTransitionLogo_23
+  - first:
+      213: 3662007524355502748
+    second: StageTransitionLogo_24
+  - first:
+      213: -3506028733169508131
+    second: StageTransitionLogo_25
+  - first:
+      213: -1741798485872921573
+    second: StageTransitionLogo_26
+  - first:
+      213: -8255672127350319902
+    second: StageTransitionLogo_27
+  - first:
+      213: 1716795721356981046
+    second: StageTransitionLogo_28
+  - first:
+      213: -3743761842053140044
+    second: StageTransitionLogo_29
+  - first:
+      213: 5225048603793254851
+    second: StageTransitionLogo_30
+  - first:
+      213: 4265075609494022727
+    second: StageTransitionLogo_31
+  - first:
+      213: -3884048024309277118
+    second: StageTransitionLogo_32
+  - first:
+      213: -8141626618483496509
+    second: StageTransitionLogo_33
+  - first:
+      213: 3650265354421463180
+    second: StageTransitionLogo_34
+  - first:
+      213: 5614343334585771988
+    second: StageTransitionLogo_35
+  - first:
+      213: -9002736492626277656
+    second: StageTransitionLogo_36
+  - first:
+      213: 7292525917618566085
+    second: StageTransitionLogo_37
+  - first:
+      213: -4560166099692729916
+    second: StageTransitionLogo_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StageTransitionLogo_0
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1272
+        width: 112
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0dc8bff2aa7478f0800000000000000
+      internalID: -543674814511395573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_1
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1272
+        width: 76
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cba99a5c85349d0800000000000000
+      internalID: -2791289738062283692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1272
+        width: 99
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef830aeef2e1a2980800000000000000
+      internalID: -8562998550275802882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_3
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1236
+        width: 104
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc27ed4184e693290800000000000000
+      internalID: -7910170014632742193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_4
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1272
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65c792e6f9936300800000000000000
+      internalID: 244208090450740589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1274
+        width: 88
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fc11ba1bd2d2f30800000000000000
+      internalID: 4552345039443971840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_6
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1272
+        width: 115
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636182f9e1655cc20800000000000000
+      internalID: 3226079397600040502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_7
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1274
+        width: 31
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d97fd363610a100800000000000000
+      internalID: 117118012535315836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_8
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1272
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4d8675acb996e10800000000000000
+      internalID: 2191453987044644028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_9
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1272
+        width: 99
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9573fd826f3b127a0800000000000000
+      internalID: -6403639325315090599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_10
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1274
+        width: 73
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9e0683d16f55f20800000000000000
+      internalID: 3410902898163378687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_11
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 835
+        width: 119
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c237c893bd41da40800000000000000
+      internalID: 5391175662696870593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 835
+        width: 96
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbbae378f88ea270800000000000000
+      internalID: 8263692966949469110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_13
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 835
+        width: 133
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da496e6a9155ec3e0800000000000000
+      internalID: -2031592813234842451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_14
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 835
+        width: 121
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cf7b7c4cd506dc0800000000000000
+      internalID: -3647812598424404952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_15
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 392
+        width: 116
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afd8ff44511895f0800000000000000
+      internalID: -749830284140552281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_16
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 392
+        width: 76
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610e3b256a10161a0800000000000000
+      internalID: -6818166546998501354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_17
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 511
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c370f488b1396320800000000000000
+      internalID: 2551625332456190917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_18
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 392
+        width: 76
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a366d0b9d284bf100800000000000000
+      internalID: 142787173904377402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_19
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 391
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b297b5af420736c0800000000000000
+      internalID: -4163856789374790987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_20
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 394
+        width: 100
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5776a3705faca9940800000000000000
+      internalID: 5303774664919246709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_21
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 394
+        width: 30
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ea6b739beb1c6b0800000000000000
+      internalID: -5277727585588564436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_22
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 394
+        width: 100
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a6854af23675cb0800000000000000
+      internalID: -4875319015333402101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_23
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 392
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603e89257b6fff7b0800000000000000
+      internalID: -5188156978482322682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_24
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 392
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c927406f07012d230800000000000000
+      internalID: 3662007524355502748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_25
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 391
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd06e136175185fc0800000000000000
+      internalID: -3506028733169508131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_26
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 172
+        width: 99
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b143b3b6183e3d7e0800000000000000
+      internalID: -1741798485872921573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_27
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 174
+        width: 100
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4d03bc0f5fd6d80800000000000000
+      internalID: -8255672127350319902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_28
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 137
+        width: 113
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633b463dc9843d710800000000000000
+      internalID: 1716795721356981046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_29
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 174
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1b2c0a07c7b0cc0800000000000000
+      internalID: -3743761842053140044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_30
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 172
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c96f3b850a138840800000000000000
+      internalID: 5225048603793254851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_31
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 137
+        width: 113
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ae2146ba7903b30800000000000000
+      internalID: 4265075609494022727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_32
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 146
+        width: 95
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24edc7486e6191ac0800000000000000
+      internalID: -3884048024309277118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_33
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 172
+        width: 104
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c92d670ab1230f80800000000000000
+      internalID: -8141626618483496509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_34
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 172
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88e43afff858a230800000000000000
+      internalID: 3650265354421463180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_35
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 172
+        width: 76
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7211944872aed40800000000000000
+      internalID: 5614343334585771988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_36
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 172
+        width: 76
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea8096cbdadf0380800000000000000
+      internalID: -9002736492626277656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_37
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 171
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3fbf24fa1443560800000000000000
+      internalID: 7292525917618566085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageTransitionLogo_38
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 174
+        width: 100
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c94907d71907b0c0800000000000000
+      internalID: -4560166099692729916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      StageTransitionLogo_0: -543674814511395573
+      StageTransitionLogo_1: -2791289738062283692
+      StageTransitionLogo_10: 3410902898163378687
+      StageTransitionLogo_11: 5391175662696870593
+      StageTransitionLogo_12: 8263692966949469110
+      StageTransitionLogo_13: -2031592813234842451
+      StageTransitionLogo_14: -3647812598424404952
+      StageTransitionLogo_15: -749830284140552281
+      StageTransitionLogo_16: -6818166546998501354
+      StageTransitionLogo_17: 2551625332456190917
+      StageTransitionLogo_18: 142787173904377402
+      StageTransitionLogo_19: -4163856789374790987
+      StageTransitionLogo_2: -8562998550275802882
+      StageTransitionLogo_20: 5303774664919246709
+      StageTransitionLogo_21: -5277727585588564436
+      StageTransitionLogo_22: -4875319015333402101
+      StageTransitionLogo_23: -5188156978482322682
+      StageTransitionLogo_24: 3662007524355502748
+      StageTransitionLogo_25: -3506028733169508131
+      StageTransitionLogo_26: -1741798485872921573
+      StageTransitionLogo_27: -8255672127350319902
+      StageTransitionLogo_28: 1716795721356981046
+      StageTransitionLogo_29: -3743761842053140044
+      StageTransitionLogo_3: -7910170014632742193
+      StageTransitionLogo_30: 5225048603793254851
+      StageTransitionLogo_31: 4265075609494022727
+      StageTransitionLogo_32: -3884048024309277118
+      StageTransitionLogo_33: -8141626618483496509
+      StageTransitionLogo_34: 3650265354421463180
+      StageTransitionLogo_35: 5614343334585771988
+      StageTransitionLogo_36: -9002736492626277656
+      StageTransitionLogo_37: 7292525917618566085
+      StageTransitionLogo_38: -4560166099692729916
+      StageTransitionLogo_4: 244208090450740589
+      StageTransitionLogo_5: 4552345039443971840
+      StageTransitionLogo_6: 3226079397600040502
+      StageTransitionLogo_7: 117118012535315836
+      StageTransitionLogo_8: 2191453987044644028
+      StageTransitionLogo_9: -6403639325315090599
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
