@@ -91,13 +91,6 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
         }
-
-        if (!pressed && rb.linearVelocityY > 0)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
-        }
-
-        // ボタンが今押されているか（可変ジャンプの判定用）
     }
 
     void Update()

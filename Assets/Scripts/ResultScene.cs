@@ -18,13 +18,13 @@ public class ResultScene : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
 
-        if (GameManager.isClear)
-        {
-            Play(clearSE);
-        }
-        else if (GameManager.isGameOver)
+        if (GameOverCheck.isGameOver)
         {
             Play(gameOverSE);
+        }
+        else
+        {
+            Play(clearSE);
         }
     }
 

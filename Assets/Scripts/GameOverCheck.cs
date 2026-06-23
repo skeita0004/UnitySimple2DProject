@@ -31,18 +31,12 @@ public class GameOverCheck : MonoBehaviour
                 GameManager.isGameOver = true;
 
                 isGameOver = true;
-                
             }
 
             // カメラから、負の方向に8くらい離れていたら
             if (transform.position.x - sceneCamera.transform.position.x < -12f)
             {
-                GameManager.isClear = false;
-                GameManager.isGameOver = true;
-
                 isGameOver = true;
-                
-               
             }
 
             if (isGameOver)

@@ -13,6 +13,10 @@ public class SceneChange : MonoBehaviour
 
     public static bool isSceneChage = false;
 
+    private float inputLockTimer_ = 0f;
+    private const float INPUT_LOCK_TIME = 0.5f;
+    private bool isInputLocked_ = false;
+
     public void ChangeScene()
     {
         SceneManager.LoadScene(scene_);
@@ -20,11 +24,22 @@ public class SceneChange : MonoBehaviour
 
     void Start()
     {
-        
+        isInputLocked_ = true;
+        inputLockTimer_ = INPUT_LOCK_TIME;
     }
 
     void Update()
     {
+        if(isInputLocked_)
+        {
+            inputLockTimer_ -= Time.deltaTime;
+            if (inputLockTimer_ < 0 )
+            {
+                isInputLocked_ = false;
+            }
+            return;
+        }
+
 
         if (isSceneChage)
         {
@@ -44,8 +59,8 @@ public class SceneChange : MonoBehaviour
                 currScene == "StageTransition" || 
                 currScene == "ResultScene")
             {
-                if ( Keyboard.current.anyKey.isPressed ||
-                    Gamepad.current != null && Gamepad.current.allControls.Any(controller => controller is ButtonControl button && button.IsPressed()))
+                if ( Keyboard.current.anyKey.wasPressedThisFrame ||
+                    Gamepad.current != null && Gamepad.current.allControls.Any(controller => controller is ButtonControl button && button.wasPressedThisFrame))
                 {
                     isSceneChage = true;
                 }
